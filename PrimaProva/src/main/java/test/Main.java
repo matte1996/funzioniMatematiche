@@ -11,6 +11,7 @@ public class Main {
 		System.out.println("ciao");
 		int x = 4;
 		System.out.println(calcolaQuadro(x));
+		System.out.println(calcolaMeta(x));
 	}
 
 
@@ -19,6 +20,12 @@ public static int calcolaQuadro (int x) {
 			
 			int y = x * x;
 			return y;
+}
+
+public static int calcolaMeta (int x) {
+	
+	int y = x / 2;
+	return y;
 }
 
 
