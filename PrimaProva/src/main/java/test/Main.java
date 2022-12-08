@@ -8,13 +8,11 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("ciao");
 		int x = 4;
-		System.out.println(calcolaQuadro(x));
-		System.out.println(calcolaMeta(x));
+		System.out.println("il numero inserito vale " + x);
+		System.out.println("ne calcolo il quadrato " + calcolaQuadro(x));
+		System.out.println("ne calcolo la metà " + calcolaMeta(x));
 	}
-
-
 		
 public static int calcolaQuadro (int x) {
 			
