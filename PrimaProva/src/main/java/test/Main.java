@@ -11,8 +11,9 @@ public class Main {
 		int x = 4;
 		System.out.println("il numero inserito vale " + x);
 		System.out.println("ne calcolo il quadrato " + calcolaQuadro(x));
-		System.out.println("ne calcolo la met√† " + calcolaMeta(x));
+		System.out.println("ne calcolo la meta† " + calcolaMeta(x));
 		System.out.println("ne calcolo il doppio " + calcolaRaddoppio(x));
+		System.out.println("testxx");
 
 	}
 		
